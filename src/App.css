@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  
+  
 }
 
 .App-logo {
@@ -35,4 +37,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.displaycontainer{
+  border-style: groove;
+  border-color: #282c34;
+  height:700px;  
+  width:410px;
+  margin-left: 16cm;
+  position: relative;
+  background-color: black;
+
+}
+
+.displaybox{
+  border-style: groove;
+  background-color: black;
+  color: white;
+
+  height:270px;
+}
+
+.result{
+  right: 0;
+  font-size:80px;
+  position: absolute;
+   bottom: 60%;
+}
+
+.buttons{
+  height: 100px;;  
+  width: 100px;
+  border-style:ridge;
+  border-radius: 50%;
+  background-color: rgb(66, 62, 62);
+  color: white;
+  border: 2px solid #555555;
+  margin: 0.5px;
+  font-size: xx-large;
+}
+.buttoncontainer{
+  float: left;
+  position: relative;
+  left:    0;
+  background-color: black;
+  bottom:   -3%;
+}
+
+
+#operator{
+  float:  right ;
+  bottom:   -94px;
+  background-color: rgb(247, 167, 18);
+  
+}
+
+#operator:hover{
+  background-color: rgb(207, 185, 127);
+  color:  white 
+}
+
+.eaqulbuttons{
+  height: 100px;;  
+  width: 100px;
+ 
+  bottom:   -94px;
+  right: 100%;
+  border-radius: 50%;
+}
+
+.nonbuttons{
+  height: 50px;;  
+  width: 50px;
+  float:  right ;
+  bottom:   -94px;
+  right: 100%;
+}
+
+
+.buttons:hover{
+  background-color: rgb(134, 130, 130);;
+  color: black;
+}
+
+.buttons:active{
+  transform: translateY(4px);
 }
